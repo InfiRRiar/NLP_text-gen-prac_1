@@ -10,10 +10,10 @@ So yeah, not very interesting, but it is what it is.
 
 ### Convolutional and Recurrent nets
 
-These two are more complicated a bit. Every token is represented as unique token. After tokenezation lines assemble into a batch in the from of a matrix. The structure of a nets is simple:
+These two are more complicated a bit. Every token is represented as unique token. After tokenezation lines are being assembles into a batch. The structure of the nets is simple:
 
 - Embeddings to code;
-- Main part (either the Conv1d or LSTM layer);
+- Main part (either Conv1d or LSTM layer);
 - Linear layer to transform the output into a vector of probabilities for every symbol to appear next.
 
 **Loss function**: cross-entropy.
